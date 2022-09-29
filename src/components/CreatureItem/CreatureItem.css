@@ -1,0 +1,87 @@
+.creature-container {
+  width: 49%;
+  background-color: white;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.creature-name {
+  text-align: center;
+  padding: 10px;
+}
+.creature-name p {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.creature-img {
+  padding: 20px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creature-img img {
+  max-width: 100%;
+  height: auto;
+}
+.creature-stats p {
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
+  background-color: #7bb7b7;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+}
+.creature-types {
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
+  background-color: #7bb7b7;
+  font-weight: bold;
+  margin: 15px 5px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+}
+.creature-description {
+  padding: 10px;
+}
+.creature-description p {
+  font-size: 20px;
+}
+
+.creature-attacks {
+  display: flex;
+}
+.creature-attacks p {
+  background-color: #7bb7b7;
+  font-weight: bold;
+  margin: 15px 5px;
+  padding: 5px 13px;
+  border-radius: 5px;
+  color: white;
+}
+.creature-attacks span {
+  width: 30%;
+  background-color: #f16820;
+  border-radius: 5px;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 1px;
+}
+.creature-attacks__description {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
